@@ -1,0 +1,16 @@
+#count() 方法用于统计字符串里某个字符或子字符串出现的次数。可选参数为在字符串搜索的开始与结束位置。
+#1
+def str_count(strng, letter):
+    counter = 0
+    
+    for chr in strng:
+        if chr == letter:
+            counter += 1
+        
+    return counter
+#2
+def str_count(strng, letter):
+    return (strng.count(letter))
+    
+    
+    
